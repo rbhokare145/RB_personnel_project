@@ -1,0 +1,7 @@
+node "puppetmaster" { 
+
+notify { "Hello World :
+
+        }
+
+}
