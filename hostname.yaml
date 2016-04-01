@@ -1,7 +1,9 @@
 node "puppetmaster" { 
 
-notify { "Hello World :
-
-        }
+notify { "Hello World" :}
+ 
+include ntp
+include sshd
+include cron
 
 }
